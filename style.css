@@ -8,7 +8,7 @@ html,body{
     height: 100%;
 }
 #minicircle{
-    transition: all cubic-bezier(0.19, 1, 0.22,1) 1s;
+    transition: all cubic-bezier(0.19, 1, 0.22,1) .4s;
     width: 10px;
     height: 10px;
     position: absolute;
@@ -146,7 +146,7 @@ html,body{
     z-index: 999;
     height: 200px;
     width: 200px;
-    display: none;
+    /* display: none; */
 }
 #about{
     width: 100%;
@@ -161,7 +161,7 @@ html,body{
     padding-left: 25vw;
 }
 #about img{
-    height: 350px;
+    height: 330px;
     width: 300px;
     border-radius: 50%;
 }
